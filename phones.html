@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Смартфони</title>
+    <!--Шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Подключение стилей-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Подключаем скрипты -->
+</head>
+
+<body>
+        <!--Шапка-->
+        <header class="header">
+            <div class="test">
+            <a href="index.html"><img src="img/logo-dark.png" class="logo" alt="Logo" /></a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="notebooks.html">Ноутбуки та комп’ютери</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="phones.html">Смартфони</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Побутова техніка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Товари для дому</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Підтримка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Кошик</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+        <div class="main">
+        <div class="catalog-page">
+            <!--Фильтры-->
+            <div class="filter">
+                <div class="brand">
+                    <div class="filter-title">
+                        <h3>Бренд</h3>
+                    </div>
+                    <form action="" method="post">
+                        <div>
+                            <input type="search" name="search-field" id="search-field" placeholder="Пошук">
+                        </div>
+                        <div class="filter-checkbox">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="huawei" id="huawei">
+                                    <label for="asus">Huawei</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="nokia" id="nokia">
+                                    <label for="artline">Nokia</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="samsung" id="samsung">
+                                    <label for="acer">Samsung</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="apple" id="apple">
+                                    <label for="apple">Apple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="lenovo" id="lenovo">
+                                    <label for="lenovo">Lenovo</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="xiaomi" id="xiaomi">
+                                    <label for="hp">Xiaomi</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="oneplus" id="oneplus">
+                                    <label for="msi">OnePlus</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="price">
+                    <div class="filter-title">
+                        <h3>Ціна:</h3>
+                    </div>
+
+                    <div class="price-choose">
+                        <form action=""></form>
+                        <input type="text" name="min" id="min" maxlength="20" placeholder="від">
+                        <span> - </span>
+                        <input type="text" name="max" id="max" maxlength="100000" placeholder="до">
+                        <button type="submit">Ok</button>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="iram">
+                    <div class="filter-title">
+                        <h3>Вбудована пам'ять</h3>
+                    </div>
+                    <form action="" method="post">
+                        <div class="filter-checkbox">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="1tb" id="1tb">
+                                    <label for="1tb">1 Тб</label>
+                                </li>
+                                <li><input type="checkbox" name="128gb" id="128gb">
+                                    <label for="128gb">128 Гб</label>
+                                </li>
+                                <li><input type="checkbox" name="256gb" id="256gb">
+                                    <label for="256gb">256 Гб</label>
+                                </li>
+                                <li><input type="checkbox" name="32gb" id="32gb">
+                                    <label for="32gb">32 Гб</label>
+                                </li>
+                                <li><input type="checkbox" name="512gb" id="512gb">
+                                    <label for="512gb">512 Гб</label>
+                                </li>
+                                <li><input type="checkbox" name="64gb" id="64gb">
+                                    <label for="64gb">64 Гб</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="ram">
+                    <div class="filter-title">
+                        <h3>Обсяг оперативної пам'яті</h3>
+                    </div>
+                    <form action="" method="post">
+                        <div class="filter-checkbox">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="4gb" id="4gb">
+                                    <label for="amdr3">4 Gb</label>
+                                </li>
+                                <li><input type="checkbox" name="6-8gb" id="6-8gb">
+                                    <label for="amdr5">6 - 8 Gb</label>
+                                </li>
+                                <li><input type="checkbox" name="10-12gb" id="10-12gb">
+                                    <label for="amdr7">10 - 12 Gb</label>
+                                </li>
+                                <li><input type="checkbox" name="16-24gb" id="16-24gb">
+                                    <label for="amdr9">16 - 24 Gb</label>
+                                </li>
+                                <li><input type="checkbox" name="32m" id="32m">
+                                    <label for="">32 Gb і більше</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="diagonal">
+                    <div class="filter-title">
+                        <h3>Діагональ екрану</h3>
+                    </div>
+                    <form action="" method="post">
+                        <div>
+                            <input type="search" name="search-field" id="search-field" placeholder="Пошук">
+                        </div>
+                        <div class="filter-checkbox">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="4.1-4.5" id="4.1-4.5">
+                                    <label for="4.1-4.5">4.1" - 4.5"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="4.6-5" id="4.6-5">
+                                    <label for="4.6-5">4.6" - 5"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="5.1-5.5" id="5.1-5.5">
+                                    <label for="5.1-5.5">5.1" - 5.5"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="5.55-6" id="5.55-6">
+                                    <label for="5.55-6">5.55" - 6"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="6-6.49" id="6-6.49">
+                                    <label for="6-6.49">6" - 6.49"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="6.5+" id="6.5+">
+                                    <label for="6.5+">6.5" та більше</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="4-" id="4-">
+                                    <label for="4-">до 4"</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <!--Товары-->
+            <div class="main-goods">
+                <ul class="main-goods-grid">
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/1.png">
+                                </a>
+                                <a class="tile-title" href="#">Xiaomi Redmi Note 11</a>
+                                <div class="tile-price">
+                                    <span>550$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/2.png">
+                                </a>
+                                <a class="tile-title" href="#">Apple iPhone 13 Pro Max</a>
+                                <div class="tile-price">
+                                    <span>2500$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_unavailable">Немає в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/3.png">
+                                </a>
+                                <a class="tile-title" href="#">Samsung Galaxy S22 Ultra</a>
+                                <div class="tile-price">
+                                    <span>2550$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/4.png">
+                                </a>
+                                <a class="tile-title" href="#">Xiaomi 11 Lite</a>
+                                <div class="tile-price">
+                                    <span>750$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/5.png">
+                                </a>
+                                <a class="tile-title" href="#">Realme 8</a>
+                                <div class="tile-price">
+                                    <span>730$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/6.png">
+                                </a>
+                                <a class="tile-title" href="#">Apple iPhone 13 mini</a>
+                                <div class="tile-price">
+                                    <span>870$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/7.png">
+                                </a>
+                                <a class="tile-title" href="#">OnePlus Nord 12</a>
+                                <div class="tile-price">
+                                    <span>980$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_limited">Закінчується</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/4.png">
+                                </a>
+                                <a class="tile-title" href="#">Xiaomi 15 Pro</a>
+                                <div class="tile-price">
+                                    <span>1910$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/5.png">
+                                </a>
+                                <a class="tile-title" href="#">Realme 3</a>
+                                <div class="tile-price">
+                                    <span>430$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/1.png">
+                                </a>
+                                <a class="tile-title" href="#">Xiaomi Redmi Note 13</a>
+                                <div class="tile-price">
+                                    <span>750$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_available">Є в наявності</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-goods-cell">
+                        <div class="tile">
+                            <div class="tile-inner">
+                                <a class="tile-picture" href="#">
+                                    <img src="img/product/phone/2.png">
+                                </a>
+                                <a class="tile-title" href="#">Apple iPhone 10 Pro</a>
+                                <div class="tile-price">
+                                    <span>1500$</span>
+                                </div>
+                                <div class="goods-aviability">
+                                    <div class="goods-aviability_limited">Закінчується</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!--Подвал-->
+        <div class="page-dark">
+            <footer>
+                <div class="footer test">
+                <div class="footer-logo">
+                    <img src="img/logo-light.png" class="logo" alt="Logo" />
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-list">
+                        <li class="footer-list-item footer-list-title">
+                            Інформація про компанію
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="about.html">Про нас</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="contact.html">Контакти</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li class="footer-list-item footer-list-title">
+                            Категорії
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="notebooks.html">Ноутбуки та комп’ютери</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="phones.html">Смартфони</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="#">Побутова техніка</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="#">Товари для дому</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list footer-list-social">
+                        <li class="footer-list-item footer-list-title">
+                            Ми в соціальних мережах
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="https://www.facebook.com/">Facebook</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="https://www.instagram.com/">Intagram</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="https://twitter.com/">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </footer>
+        </div>
+    
+</body>
+
+</html>

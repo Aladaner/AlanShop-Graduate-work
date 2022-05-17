@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Alan Shop</title>
+    <!--Шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Подключение стилей-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!-- Подключаем скрипты -->
+    <script src="scripts/slider.js" type="text/javascript" async></script>
+</head>
+
+<body>
+
+    <!--Шапка-->
+    <header class="header">
+        <div class="test">
+            <a href="index.html"><img src="img/logo-dark.png" class="logo" alt="Logo" /></a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="notebooks.html">Ноутбуки та комп’ютери</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="phones.html">Смартфони</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Побутова техніка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Товари для дому</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Підтримка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Кошик</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+        <!--Слайдер реклам-->
+        <div class="slideshow-container">
+            <!--Полноразмерные изображения с номером и текстом подписи-->
+            <div class="mySlides fade">
+                <div class="numberSlideText">1/3</div>
+                <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width: 100%;">
+                <div class="captionSlide">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numberSlideText">2/3</div>
+                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width: 100%;">
+                <div class="captionSlide">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numberSlideText">3/3</div>
+                <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width: 100%;">
+                <div class="captionSlide">Caption Text</div>
+            </div>
+
+            <!--Кнопки «Далее» и «Назад»-->
+            <!--             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <br>
+
+        <!--Точки/круги-->
+        <!--         <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+
+        <!--Товары-->
+        <!--Останні надходження-->
+        <section class="main-goods">
+            <div class="main-goods-title">
+                <h2>Останні надходження</h2>
+            </div>
+            <ul class="main-goods-grid">
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="productpage.html">
+                                <img src="img/product/computers/3.png">
+                            </a>
+                            <a class="tile-title" href="productpage.html">Комп'ютер Artline Gaming V3</a>
+                            <div class="tile-price">
+                                <span>1800$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/computers/1.png">
+                            </a>
+                            <a class="tile-title" href="#">Ноутбук Apple MacBook Air 13</a>
+                            <div class="tile-price">
+                                <span>550$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/computers/2.png">
+                            </a>
+                            <a class="tile-title" href="#">Ноутбук Lenovo IdeaPad 3</a>
+                            <div class="tile-price">
+                                <span>550$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/phone/1.png">
+                            </a>
+                            <a class="tile-title" href="#">Мобільний телефон Xiaomi Redmi Note 11</a>
+                            <div class="tile-price">
+                                <span>550$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/bitovaya/1.png">
+                            </a>
+                            <a class="tile-title" href="#">Вбудована посудомийна машина BOSCH</a>
+                            <div class="tile-price">
+                                <span>550$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/computers/12.png">
+                            </a>
+                            <a class="tile-title" href="#">Ноутбук Acer Predator Triton 300</a>
+                            <div class="tile-price">
+                                <span>10$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_limited">Закінчується</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--Найкращі пропозиції-->
+        <section class="main-goods">
+            <div class="main-goods-title">
+                <h2>Найкращі пропозиції</h2>
+            </div>
+            <ul class="main-goods-grid">
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/computers/4.png">
+                            </a>
+                            <a class="tile-title" href="#"> Ноутбук ASUS TUF Gaming F15</a>
+                            <div class="tile-price">
+                                <span>1200$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_limited">Закінчується</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product//computers/3.png">
+                            </a>
+                            <a class="tile-title" href="#">Комп'ютер Artline Gaming V3</a>
+                            <div class="tile-price">
+                                <span>1800$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/phone/2.png">
+                            </a>
+                            <a class="tile-title" href="#">Мобільний телефон Apple iPhone 13 Pro Max</a>
+                            <div class="tile-price">
+                                <span>2500$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_unavailable">Немає в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/phone/3.png">
+                            </a>
+                            <a class="tile-title" href="#">Мобільний телефон Samsung Galaxy S22 Ultra</a>
+                            <div class="tile-price">
+                                <span>2550$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/phone/4.png">
+                            </a>
+                            <a class="tile-title" href="#">Мобільний телефон Xiaomi 11 Lite</a>
+                            <div class="tile-price">
+                                <span>750$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_available">Є в наявності</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="main-goods-cell">
+                    <div class="tile">
+                        <div class="tile-inner">
+                            <a class="tile-picture" href="#">
+                                <img src="img/product/computers/12.png">
+                            </a>
+                            <a class="tile-title" href="#">Ноутбук Acer Predator Triton 300</a>
+                            <div class="tile-price">
+                                <span>10$</span>
+                            </div>
+                            <div class="goods-aviability">
+                                <div class="goods-aviability_limited">Закінчується</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <!--Подвал-->
+    <div class="page-dark">
+        <footer>
+            <div class="footer test">
+                <div class="footer-logo">
+                    <img src="img/logo-light.png" class="logo" alt="Logo" />
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-list">
+                        <li class="footer-list-item footer-list-title">
+                            Інформація про компанію
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="about.html">Про нас</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="contact.html">Контакти</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li class="footer-list-item footer-list-title">
+                            Категорії
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="notebooks.html">Ноутбуки та комп’ютери</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="phones.html">Смартфони</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="#">Побутова техніка</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="#">Товари для дому</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list footer-list-social">
+                        <li class="footer-list-item footer-list-title">
+                            Ми в соціальних мережах
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="https://www.facebook.com/">Facebook</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="https://www.instagram.com/">Intagram</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a class="footer-list-link" href="https://twitter.com/">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

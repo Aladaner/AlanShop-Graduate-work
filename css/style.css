@@ -35,7 +35,9 @@ a {
 }
 
 .header {
-  background-color: #00b96b;
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(#40e3a9));
+  background: linear-gradient(0deg, white 0%, #40e3a9 100%);
 }
 
 .nav {
@@ -581,8 +583,6 @@ a {
   margin-top: 40px;
   padding-top: 10px;
   margin-bottom: 10px;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .characteristics-item {
@@ -598,9 +598,14 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-bottom: 1px solid #808080;
   font-size: 12px;
   font-weight: 500;
   padding: 5px 15px 5px 15px;
+}
+
+.characteristics #ports {
+  border-bottom: 0;
 }
 
 .characteristics dt {

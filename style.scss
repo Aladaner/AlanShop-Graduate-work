@@ -43,7 +43,9 @@ a {
 
 //Шапка
 .header {
-    background-color: $light-green;
+//    background-color: $light-green;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(64,227,169,1) 100%);
 
 }
 
@@ -525,17 +527,21 @@ a {
     margin-top: 40px;
     padding-top: 10px;
     margin-bottom: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
     &-item {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        
+        border-bottom: 1px solid $gray;
         font-size: 12px;
         font-weight: 500;
         padding: 5px 15px 5px 15px;
         
+    }
+
+    #ports {
+        border-bottom: 0;  
     }
     
     dt {

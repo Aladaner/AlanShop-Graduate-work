@@ -143,6 +143,7 @@ a {
       -ms-flex: 0 0 84.4%;
           flex: 0 0 84.4%;
   border: 1px solid gray;
+  margin-bottom: 15px;
 }
 
 .main-goods-title {
@@ -271,7 +272,7 @@ a {
 }
 
 .footer-list {
-  padding-right: 50px;
+  margin: 5px 50px 5px 0;
 }
 
 .footer-list-title {
@@ -280,7 +281,7 @@ a {
 }
 
 .footer-list-item {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .footer-list-link {
@@ -294,7 +295,6 @@ a {
 
 .about-text {
   font-size: 15px;
-  border: 1px solid #808080;
   padding: 10px;
   font-weight: 500;
   margin-bottom: 15px;

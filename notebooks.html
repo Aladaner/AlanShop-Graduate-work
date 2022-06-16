@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Подключаем скрипты -->
+    <script src="scripts/filter.js" type="text/javascript" async></script>
 </head>
 
 <body>
@@ -62,31 +63,35 @@
                         <div class="filter-checkbox">
                             <ul>
                                 <li>
-                                    <input type="checkbox" name="asus" id="asus">
+                                    <input type="checkbox" name="all" id="all" onclick="filterSelection('all')">
+                                    <label for="asus">Показати всі</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="asus" id="asus" onclick="filterSelection('asus')">
                                     <label for="asus">ASUS</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" name="artline" id="artline">
+                                    <input type="checkbox" name="artline" id="artline" onclick="filterSelection('artline')">
                                     <label for="artline">Artline</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" name="acer" id="acer">
+                                    <input type="checkbox" name="acer" id="acer" onclick="filterSelection('acer')">
                                     <label for="acer">Acer</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" name="apple" id="apple">
+                                    <input type="checkbox" name="apple" id="apple" onclick="filterSelection('apple')">
                                     <label for="apple">Apple</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" name="lenovo" id="lenovo">
+                                    <input type="checkbox" name="lenovo" id="lenovo" onclick="filterSelection('lenovo')">
                                     <label for="lenovo">Lenovo</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" name="hp" id="hp">
+                                    <input type="checkbox" name="hp" id="hp" onclick="filterSelection('hp')">
                                     <label for="hp">HP</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" name="msi" id="msi">
+                                    <input type="checkbox" name="msi" id="msi" onclick="filterSelection('msi')">
                                     <label for="msi">MSI</label>
                                 </li>
                             </ul>
@@ -231,7 +236,7 @@
             <!--Товары-->
             <div class="main-goods">
                 <ul class="main-goods-grid">
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show artline">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -248,7 +253,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show apple">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -265,7 +270,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show lenovo">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -282,7 +287,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show asus">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -299,7 +304,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show asus">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -316,7 +321,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show lenovo">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -333,7 +338,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show artline">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -350,7 +355,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show lenovo">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -367,7 +372,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show asus">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">
@@ -384,7 +389,7 @@
                         </div>
                     </li>
 
-                    <li class="main-goods-cell">
+                    <li class="main-goods-cell-np show asus">
                         <div class="tile">
                             <div class="tile-inner">
                                 <a class="tile-picture" href="#">

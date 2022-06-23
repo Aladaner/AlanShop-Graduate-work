@@ -1,10 +1,11 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 17px;
 }
 
 ul {
+  -webkit-padding-start: 0px;
   padding-inline-start: 0px;
 }
 
@@ -38,30 +39,27 @@ footer {
 }
 
 .header {
-  background: white;
-  background: linear-gradient(0deg, white 0%, #40e3a9 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(64, 227, 169) 100%);
 }
 
 .nav {
   display: flex;
+  -webkit-padding-start: 0;
   padding-inline-start: 0;
   padding-right: 80px;
 }
-
 .nav-item {
   margin-left: 20px;
   font-size: 14px;
   font-weight: 700;
 }
-
 .nav-link {
   color: #212121;
 }
-
 .nav-link {
   color: #212121;
 }
-
 .nav-link:hover {
   color: #0000ff;
 }
@@ -84,22 +82,18 @@ footer {
   border-left: 1px solid #808080;
   padding: 10px;
 }
-
 .filter-title {
   color: #0000ff;
   font-size: 12px;
 }
-
 .filter-title h3 {
   margin-top: 3px;
   margin-bottom: 10px;
 }
-
 .filter-checkbox li {
   font-size: 12px;
   padding: 4px;
 }
-
 .filter-checkbox li label {
   margin-left: 5px;
 }
@@ -113,22 +107,18 @@ footer {
   border-bottom: 1px solid #808080;
   margin-bottom: 10px;
 }
-
 .price-choose {
   display: flex;
   margin-bottom: 10px;
 }
-
 .price-choose input {
   width: 32%;
   height: 32%;
   padding: 0 8px 0 8px;
 }
-
 .price-choose span {
   margin: 0 4px 0 4px;
 }
-
 .price-choose button {
   margin-left: 12px;
 }
@@ -137,23 +127,19 @@ footer {
   flex: 0 0 84.4%;
   border: 1px solid gray;
 }
-
 .main-goods-title {
-  background-color: #ecdab9;
+  background-color: rgb(236, 218, 185);
   font-size: 20px;
   padding: 15px;
 }
-
 .main-goods-title h2 {
   font-size: 20px;
 }
-
 .main-goods-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .main-goods-cell {
   position: relative;
   width: 16.6667%;
@@ -163,11 +149,9 @@ footer {
   box-sizing: border-box;
   padding: 10px;
 }
-
 .main-goods-cell:hover {
   background-color: #f1eded;
 }
-
 .main-goods-cell-np {
   display: none;
   position: relative;
@@ -178,7 +162,6 @@ footer {
   box-sizing: border-box;
   padding: 10px;
 }
-
 .main-goods-cell-np:hover {
   background-color: #f1eded;
 }
@@ -193,7 +176,6 @@ footer {
   width: 100%;
   padding: 0 0 16px 0;
 }
-
 .tile-picture {
   position: relative;
   display: block;
@@ -201,7 +183,6 @@ footer {
   margin-bottom: 16px;
   text-align: center;
 }
-
 .tile-picture img {
   position: absolute;
   top: 50%;
@@ -211,7 +192,6 @@ footer {
   max-width: 100%;
   vertical-align: middle;
 }
-
 .tile-title {
   display: block;
   height: 60px;
@@ -223,11 +203,9 @@ footer {
   text-align: center;
   padding: 12px;
 }
-
 .tile-title:hover {
   color: #00b96b;
 }
-
 .tile-price {
   font-size: 24px;
   font-weight: 500;
@@ -241,15 +219,12 @@ footer {
   text-align: center;
   font-weight: 500;
 }
-
 .goods-aviability_available {
   color: #00ad1d;
 }
-
 .goods-aviability_limited {
-  color: #ffa600;
+  color: rgb(255, 166, 0);
 }
-
 .goods-aviability_unavailable {
   color: red;
 }
@@ -259,31 +234,25 @@ footer {
   justify-content: space-evenly;
   padding: 30px 40px;
 }
-
 .footer-nav {
   display: flex;
   justify-content: space-between;
   color: white;
 }
-
 .footer-list {
   margin: 5px 50px 5px 0;
 }
-
 .footer-list-title {
   font-size: 10px;
   font-weight: 700;
 }
-
 .footer-list-item {
   margin-bottom: 5px;
 }
-
 .footer-list-link {
   color: #CBCFD4;
   font-size: 14px;
 }
-
 .footer-list-link:hover {
   color: #00b96b;
 }
@@ -310,7 +279,6 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-
 .product-header-id {
   font-weight: 700;
 }
@@ -318,11 +286,9 @@ footer {
 .product-about {
   display: flex;
 }
-
 .product-about-left {
   width: 63%;
 }
-
 .product-about-right {
   width: 37%;
   padding-left: 7px;
@@ -346,7 +312,6 @@ footer {
   padding-right: 16px;
   position: relative;
 }
-
 .button-request:hover {
   background-color: #31a3db;
   cursor: pointer;
@@ -368,11 +333,9 @@ footer {
   padding: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .garanty span {
   margin-right: 5px;
 }
-
 .garanty-text {
   font-size: 15px;
   font-weight: 500;
@@ -390,11 +353,9 @@ footer {
   padding-left: 5px;
   margin-top: 10px;
 }
-
 .delivery-item span {
   margin-right: 10px;
 }
-
 .delivery-item-type {
   font-weight: 500;
   padding-right: 10px;
@@ -402,14 +363,12 @@ footer {
   width: 30%;
   font-size: 13px;
 }
-
 .delivery-item-time {
   font-weight: bold;
   padding-right: 10px;
   width: 30%;
   font-size: 13px;
 }
-
 .delivery-item-price {
   padding-right: 10px;
   text-align: right;
@@ -427,11 +386,9 @@ footer {
   padding: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .payment span {
   margin-right: 10px;
 }
-
 .payment-text {
   font-size: 15px;
   font-weight: 500;
@@ -460,12 +417,10 @@ footer {
   margin-top: 10px;
   justify-content: space-between;
 }
-
 .description-left {
   width: 45%;
   padding: 20px;
 }
-
 .description-right {
   width: 45%;
   padding: 20px;
@@ -479,7 +434,7 @@ footer {
   padding: 10px;
   margin: 5px;
   margin-bottom: 15px;
-  background-color: #f4f8f1ce;
+  background-color: rgba(244, 248, 241, 0.8078431373);
   border-radius: 4px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -488,12 +443,10 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
 .name_date h4, .name_date h5 {
   margin: 0;
   margin-bottom: 5px;
 }
-
 .name_date h5 {
   color: #808080;
   font-weight: 500;
@@ -511,7 +464,6 @@ footer {
   padding-top: 10px;
   margin-bottom: 10px;
 }
-
 .characteristics-item {
   display: flex;
   flex-direction: row;
@@ -522,11 +474,9 @@ footer {
   font-weight: 500;
   padding: 5px 15px 5px 15px;
 }
-
 .characteristics #ports {
   border-bottom: 0;
 }
-
 .characteristics dt {
   font-weight: 700;
   align-items: flex-start;
@@ -539,6 +489,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
